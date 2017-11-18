@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"amoclient-desc": "Integrate AMO login into MediaWiki",
+	"amoclient-i18n-welcome": "Welcome to the localization file of the AmoClient extension.",
+	"amoclient-helloworld": "Hello world!",
+	"amoclient-helloworld-intro": "Welcome to the \"Hello world\" special page of the AmoClient extension.",
+	"helloworld": "Hello world"
+}

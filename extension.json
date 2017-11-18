@@ -1,0 +1,38 @@
+{
+	"name": "AmoClient",
+	"version": "0.1.0",
+	"author": [
+		"Timothy Walter Lutt"
+	],
+	"url": "https://github.com/TheJjokerR/amoclient-mediawiki",
+	"descriptionmsg": "amoclient-desc",
+	"license-name": "GPL v2",
+	"type": "api",
+	"AutoloadClasses": {
+		"AmoClientHooks": "AmoClient.hooks.php",
+		"AmoLoginCallback" : "AmoLoginCallback.php"
+	},
+	"config": {
+		"AmoClientEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+	},
+	"Hooks": {
+		"BeforeInitialize": "AmoClientHooks::onBeforeInitialize"
+	},
+	"SpecialPages": {
+		"AmoLoginCallback": "AmoLoginCallback"
+	},
+	"MessagesDirs": {
+		"AmoClient": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "AmoClient"
+	},
+	"manifest_version": 1
+}
