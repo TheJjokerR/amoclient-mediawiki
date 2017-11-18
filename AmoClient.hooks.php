@@ -63,7 +63,7 @@ class AmoClientHooks {
 
         if( empty($wgAmoLoginClientClientID) || empty($wgAmoLoginClientClientSecret) )
         {
-            die( 'Error! Please alert a developer to set $wgAmoLoginClientID and $wgAmoLoginClientSecret in AMOSettings.php');
+            die( 'Error! Please alert a developer to set $wgAmoLoginClientID and $wgAmoLoginClientSecret in LocalSettings.php');
         }
 
         header( 'Location: '.$wgAmoLoginClientRemoteURL.'?client_id=' . $wgAmoLoginClientClientID . '&redirect_id=' . $callbackPageURL . '&response_type=code');
